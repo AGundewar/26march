@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="MultipleClass">
+    <classes>
+      <class name="TestNGStudy.AnnotationTakingDirectClass"/>
+      <class name="TestNGStudy.AnnotationStudy"/>
+      <class name="TestNGStudy.Example1TestNG"/>
+    </classes>
+  </test> <!-- MultipleClass -->
+</suite> <!-- Suite -->
